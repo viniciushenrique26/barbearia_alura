@@ -1,0 +1,103 @@
+header {
+  background: #BBBBBB; 
+  padding: 20px 0;
+  
+} 
+.box { 
+  position: relative; 
+  width: 940px;
+  margin: 0 auto;
+}
+nav {
+  position: absolute; 
+  top: 110px;
+  right: 0;
+}
+nav li {
+  display: inline; /* colocando as palavras da lista lado a lado*/
+  margin: 0 0 0 15px; /*topo, direita, baixo, >esquerda<* sentindo horário*/
+} 
+
+nav a {
+  text-transform: uppercase; /*Colocando todas as letras em maiusculo*/
+  color: black; 
+  font-weight: bold; /*o peso da fonte está em negrito */
+  font-size: 22px;
+  text-decoration: none; /*Nenhuma decoração no texto*/
+}  
+
+.titulo-principal { 
+  font-size: 30px; 
+  font-weight: bold;
+  padding-left: 20px; 
+  text-align: center; 
+  border: 10px solid yellow;
+  border-radius: 10px;
+}
+/* O width serve para ajustar a largura do objeto  */
+#banner { 
+  width: 100%;
+  
+
+}  
+.principal {
+  padding: 30px;
+}
+
+.descricao{ 
+  margin: 10px 0 0 0;
+  text-align: center;
+} 
+p{
+  text-align: center;
+}
+/* para referenciar id usamos # */
+#missao {  
+  margin: 20px 0 0 0;
+  font-size: 20px;
+}
+em strong {
+  color: red;
+} 
+/* para referenciar a class usamos o ponto .  */
+.beneficios {
+  background: white; 
+  padding: 20px;
+} 
+
+.caracteristicas {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%; 
+  margin-right: 15%;
+}
+.itens {
+  font-style: italic; 
+  font-size: 30px; 
+  margin-top: 10px;
+}  
+.imagem-bene{
+  width: 50%; 
+ 
+}
+nav a:hover {
+  color: yellow; 
+  transition: 0.5s; 
+  opacity: 100%;  
+  
+  
+} 
+
+
+footer {
+  text-align: center; 
+  background: url("imagens/bg.jpg"); 
+  padding: 40px 0;
+} 
+
+.rodape {
+  color:white; 
+  font-size: 13px;
+  margin: 20px 0 0;
+}
+

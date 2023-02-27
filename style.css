@@ -1,0 +1,310 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+header {
+  background: black;
+  padding: 20px 0;
+  
+}  
+.logo-nav {
+  width: 29%; 
+} 
+
+.caixa { 
+  position: relative; 
+  width: 940px;
+  margin: 0 auto;
+}
+nav {
+  position: absolute; 
+  top: 110px;
+  right: 0;
+}
+nav li {
+  display: inline; /* colocando as palavras da lista lado a lado*/
+  margin: 0 0 0 15px; /*topo, direita, baixo, >esquerda<* sentindo horário*/
+} 
+
+nav a {
+  text-transform: uppercase; /*Colocando todas as letras em maiusculo*/
+  color: white; 
+  font-weight:bold; /*o peso da fonte está em negrito */
+  font-size: 22px;
+  text-decoration: none; /*Nenhuma decoração no texto*/
+}  
+
+.produtos {
+  width: 940px; 
+  margin: 0 auto;
+  padding: 50px 0;  
+}
+.produtos li{
+  display: inline-block; 
+  text-align: center; 
+  width: 30%;
+  vertical-align: top; 
+  /*background: #CCCCCC;*/ 
+  margin: 0 1.5%; 
+  padding: 30px 20px; 
+  box-sizing: border-box; 
+  border: 2px solid black;
+  border-radius: 10px;  
+  transition: all 0.5s;
+  cursor: pointer;
+} 
+.produtos h2{ 
+  font-size: 30px; 
+  font-weight: bold;
+} 
+
+.produto-descricao {
+  font-size: 18px;
+}
+.produto-preco {
+  font-size: 22px;
+  font-weight: bold; 
+  margin-top: 10px;
+}  
+nav a:hover {
+  color: yellow; 
+  transition: 0.5s; 
+  opacity: 100%; 
+  
+}
+.produtos li:hover h2{
+  color: yellow;
+  font-size: 30px;
+} 
+
+.produtos li:hover { 
+  border-color: yellow; 
+
+  transition: 0.5s;
+
+  opacity: 100%; 
+  -webkit-transform: scale(1.0);
+  transform: scale(1.1);
+}
+footer { 
+  text-align: center; 
+  background: url("imagens/bg.jpg"); 
+  padding: 40px 0;
+} 
+footer img{
+  width: 25%
+}
+.rodape {
+  color:white; 
+  font-size: 13px;
+  margin: 20px 0 0;
+} 
+
+
+
+form {
+  margin: 40px 25px;
+} 
+
+form label, form legend{ 
+  display: block;
+  font-size: 20px; 
+  margin: 0 0 10px;
+} 
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px; 
+  padding: 10px 25px; 
+  width: 50%; 
+  border-radius: 30px;
+} 
+
+.checkbox {
+  margin: 20px 0;
+} 
+
+.enviar {
+  width: 40%; 
+  padding: 15px 0; 
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all; 
+  opacity: 100%; 
+  cursor: pointer;
+} 
+
+.enviar:hover {
+  background: darkorange; 
+  transform: scale(1.2);
+} 
+
+table { 
+  margin: 15px auto; 
+  font-size: 25px; 
+  width: 55%; 
+} 
+
+thead {
+  background: grey;
+  color: white;
+  font-weight: bold;
+} 
+
+td, th {
+  border: 1px solid black;
+  padding: 8px 15px;  
+  text-align: center;
+} 
+
+.imagem-contatos {
+  position:absolute; 
+  right: -12px;
+  margin: 20px 30px;
+  padding: 10px;
+  width: 41%; 
+
+} 
+/* Home principal*/
+.banner {
+  width:100%; 
+  height: 598px;
+} 
+.principal {
+  padding: 3em 0;  
+  background: #FEFEFE; 
+  width: 940px; 
+  margin: 0 auto;
+}
+.titulo-principal {
+  text-align: center;
+  font-size: 2em; 
+  margin: 0 0 1em; 
+  clear: left; 
+  /*text-shadow: 10px 10px 10px black;*/
+}  
+
+.principal p {
+  margin: 0 0 1em; 
+} 
+.principal strong { 
+  font-weight: bold;
+} 
+.principal em{
+  font-style: italic;
+}  
+
+.utensilios {
+  width: 120px; 
+  float: left; 
+  margin: 0 20px 20px 0;
+} 
+.beneficios {
+  padding: 3em 0; 
+  background: #888888;
+} 
+
+.imagem-beneficios {
+  width: 60%;  
+  box-shadow: 10px 10px 100px 0 black; /* X,Y,blur,intensidade,cor (para adicionar novas cores, é só usar uma VIRGULA*/
+  opacity: 1;
+  transition: 400ms;
+} 
+.imagem-beneficios:hover{
+  opacity: 0.3; 
+}
+.conteudo-beneficios {
+  width: 640px;
+  margin: 0 auto;
+} 
+
+.lista-beneficios {
+  width: 40%; 
+  display: inline-block; 
+  vertical-align: top;
+} 
+.itens{
+  line-height: 1.5;
+} 
+.itens:before {
+  content: "✄";
+}
+.itens:first-child {
+    font-weight:bold;
+}
+
+.mapa {
+  padding: 3em 0; 
+  background:linear-gradient(#FEFEFE,#888888) ;
+} 
+.mapa-conteudo {
+  width: 940px; 
+  margin: 0 auto;
+}
+.mapa p {
+  margin: 0 0 2em; 
+  text-align: center;
+} 
+
+.video {
+  width: 560px;
+  margin: 2em auto;
+} 
+/*Adaptando para dispositivos móveis*/
+@media screen and (max-width:480px) {
+  .caixa,.principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    width: auto;
+  }  
+  .logo-nav {
+    width: 51%;
+  }
+  .banner {
+    height: 220px;
+  } 
+  .titulo-principal {
+    font-size: 1.5em;
+  }
+  .principal {
+    margin: 0 22px;
+  }
+  h1 {
+    text-align: center;
+  } 
+  nav{
+    position: static;
+  }  
+  nav li {
+    margin: 0 0 0 21px;
+  }
+  .produtos li {
+    display: block;
+    margin: 0px 7.5% 50px 7.5%;
+    padding: 25px 20px;
+    } 
+  .mapa-conteudo{
+    margin: 0 20px;
+  } 
+  .video {
+    margin: 24px 20px 0px 20px;
+  } 
+  .conteudo-beneficios{
+    margin: 24px 20px;
+  } 
+  .imagem-contatos {
+    display: none;
+  } 
+  .input-padrao {
+    width: 84%;
+  } 
+  footer img {
+    width: 60%;
+    margin: -22px auto;
+  } 
+  .rodape {
+    margin: 0;
+  }
+}
